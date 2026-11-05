@@ -1,0 +1,13 @@
+[package]
+name = "rs-channel-mpsc"
+version = "1.0.0"
+edition = "2021"
+description = "MPSC channel with ring buffer and backpressure"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-channel-mpsc"
+keywords = ["rust", "channel", "mpsc", "concurrency", "systems"]
+
+[[bin]]
+name = "rs_channel_mpsc"
+path = "main.rs"
